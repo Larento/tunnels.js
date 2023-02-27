@@ -1,0 +1,19 @@
+- name:
+    TYPE: string
+    DESC: Tunnel name.
+  account:
+    TYPE: string
+    DESC: Packetriot account name.
+  subdomain:
+    TYPE: string
+    DESC: Subdomain of hostname.
+  localhost:
+    TYPE: string
+    DESC: Localhost address in your local network.
+    FALLBACK: 127.0.0.1
+  port:
+    TYPE: number
+    DESC: Port on localhost to be tunneled.
+  cert:
+    TYPE: boolean
+    DESC: Whether to add Let's Encrypt certificates.
